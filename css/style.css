@@ -1,0 +1,46 @@
+.jumbotron {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    height: 90vh;
+}
+
+.display{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.display-4{
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+}
+.jumbotron-paragraph{
+    color: white;
+    text-align: center;
+}
+.scroll-down{
+    text-align: center;
+    margin-top: 6rem;
+}
+/*About Us*/
+/*Services*/
+#services {
+    color: white;
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    height: 50vh;
+
+}
+/*What We do*/
+
+/*Portfolio Section*/
+.port-img {
+    height: 12rem;
+}
+/*Contact Us*/
+#contact {
+    color: white;
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    height: 65vh;
+} 
