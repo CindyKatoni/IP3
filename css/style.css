@@ -110,9 +110,20 @@ body {
     color: white;
     background-image: url("../assets/backgrounds/c_image.jpg");
     background-size: cover;
-    height: 65vh;
+    height: 25rem;
     margin-top: 25px;
+    padding: 15px;
 } 
+#exampleFormControlTextarea1 {
+    height: 10rem;
+}
+.form-control{
+    background: transparent;
+    color: white;
+}
+.form-control::placeholder{
+    color: white;
+}
 
 /*Social Media*/
 .social-media ul{

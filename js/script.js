@@ -1,5 +1,9 @@
 (function ($) {
     // console.log("About to start jQuery");
+    //scroll-down
+
+
+
     //design-card
     $("#design-img").click(function() {
         $(this).toggle();//hides image
@@ -34,5 +38,31 @@
     $("#port-1").hover(function() {
         $("#white-box-1").toggle(); // Show white box;
     });
+    $("#port-2").hover(function(){
+        $("#white-box-2").toggle();
+    });
+    $("#port-3").hover(function(){
+        $("#white-box-3").toggle();
+    });
+    $("#port-4").hover(function(){
+        $("#white-box-4").toggle();
+    });
+    $("#port-5").hover(function(){
+        $("#white-box-5").toggle();
+    });
+    $("#port-6").hover(function(){
+        $("#white-box-6").toggle();
+    });
+    $("#port-7").hover(function(){
+        $("#white-box-7").toggle();
+    });
+    $("#port-8").hover(function(){
+        $("#white-box-8").toggle();
+    });
 
+    /*Mail Chimp*/
+    $("#send-mail").submit(function(){
+        console.log("Send email");
+    });
+    
 })(jQuery);
