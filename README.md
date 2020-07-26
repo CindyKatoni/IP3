@@ -41,7 +41,6 @@ https://CindyKatoni.github.io/IP3
 
 
 ## Known Bugs
-* The site is not responsive enough for some devices. 
 * mail chimp API does not function properly.
 
 ## Contact Information 
