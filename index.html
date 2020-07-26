@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -21,9 +23,8 @@
     <div class="jumbotron">
         <!-- <div class="logo display">dadae</div> -->
         <h1 class="display-4">WELCOME</h1>
-        <h1 class="display">TO DESANI STUDIO</h1>
-        <p class="jumbotron-paragraph">It uses utility classes for typography and spacing to space content out within
-            the larger container.</p>
+        <h1 class="display">TO DELANI STUDIO</h1>
+        <p class="intro-paragraph">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT.</p>
         <div class="scroll-down">
             <img src="assets/mouse_click.png" alt="">
         </div>
@@ -45,70 +46,139 @@
                 We start each project by understanding your business goals, the user's needs and product requirements.
                 <br>
                 Then we help translate them into effective and elegant solutions.
-            </p>
+            </p> <br>
         </div>
     </div>
 
     <!--Services Section-->
     <div class="jumbotron" id="services">
-        <h2 class="text-center">SERVICES</h2>
-        <p class="jumbotron-paragraph">It uses utility classes for typography and spacing to space content out within
-            the larger container.</p>
+        <h2 class="service text-center">SERVICES</h2>
+        <p class="service-paragraph text-center">Before we sign a contract or write a line of code our team will spend
+            the
+            necessary time needed to understand your product vision.<br>
+            The outcome of this scoping session is proposal or high-level statement of work <br>
+            based on your requirements, we can provide a complete offering or just the pieces you need.
+        </p>
     </div>
 
     <!--What We Do Section-->
     <div class="container text-center">
-        <h2 class="text-center">WHAT WE DO</h2>
+        <h2 class="what text-center">WHAT WE DO</h2>
         <div class="row">
-            <div class="col"><img src="assets/services_icons/design_icon.png" alt=""></div>
-            <div class="col"><img src="assets/services_icons/dev_icon.png" alt=""></div>
-            <div class="col"><img src="assets/services_icons/product_icon.png" alt=""></div>
+            <div class="col">
+                <img src="assets/services_icons/design_icon.png" alt="" id="design-img">
+                <div id="design-card">
+                    <h6><strong>DESIGN</strong></h6>
+                    <p class="design-paragraph"> Our design practice offers a full range of services<br> including brand strategy,
+                        interaction and visual design<br>
+                        and user experience testing.<br><br>
+                        Throughout your project, our designers create and<br> implement visual design and workflows,
+                        solicit user<br> feedback
+                        and work with you to make sure what gets built<br> is what is needed.
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="assets/services_icons/dev_icon.png" alt="" id="dev-img">
+                <div id="dev-card">
+                    <h6><strong>DEV</strong></h6>
+                    <p class="dev-paragraph">
+                        All engineers are fluent in the latest enterprise, mobile<br> and web development technologies.<br><br>
+                        They collaborate with your team to write, and improve<br> code on a daily basis, using proven practices such as <br>
+                        test-driven development and pair programming.
+                    </p>
+                </div>
+                
+            </div>
+            <div class="col">
+                <img src="assets/services_icons/product_icon.png" alt="" id = "product-img">
+                <div id="product-card">
+                    <h6><strong>PRODUCT</strong></h6>
+                    <p class="product-paragraph">
+                        Planning and development is iterative. Because we are <br> constantly coding and testing, the products we build are<br>
+                        always ready to go live.<br><br>
+                        This iterative process allows for changes as business<br> requirements evolve.
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
+    </div><br><br>
 
     <!--Portfolio Section-->
     <div class="container">
-        <h2 class="text-center">PORTFOLIO</h2>
+        <h2 class="portfolio text-center">PORTFOLIO</h2>
         <div class="card-deck">
-            <div class="card">
-                <img src="assets/portfolio/work1.jpg" class="port-img" alt="">
+            <div class="card align-center" id="port-1">
+                <div id="white-box-1">
+                    <p class="text-center text-secondary">WORK 1</p>
+                </div>
             </div>
-            <div class="card">
-                <img src="assets/portfolio/work2.jpg" class="port-img" alt="">
+            <div class="card" id="port-2">
+                <div id="white-box-2"></div>
             </div>
-            <div class="card">
-                <img src="assets/portfolio/work3.jpg" class="port-img" alt="">
+            <div class="card" id="port-3">
+                <div id="white-box-3"></div>
             </div>
-            <div class="card">
-                <img src="assets/portfolio/work4.jpg" class="port-img" alt="">
+            <div class="card" id="port-4">
+                <div id="white-box-4"></div>
             </div>
         </div><br>
         <div class="card-deck">
-            <div class="card">
-                <img src="assets/portfolio/work5.jpg" class="port-img" alt="">
+            <div class="card" id="port-5">
+                <div id="white-box-5"></div>
             </div>
-            <div class="card">
-                <img src="assets/portfolio/work6.jpg" class="port-img" alt="">
+            <div class="card" id="port-6">
+                <div id="white-box-6"></div>
             </div>
-            <div class="card">
-                <img src="assets/portfolio/work7.jpg" class="port-img" alt="">
+            <div class="card" id="port-7">
+                <div id="white-box-7"></div>
             </div>
-            <div class="card">
-                <img src="assets/portfolio/work8.jpg" class="port-img" alt="">
+            <div class="card" id="port-8">
+                <div id="white-box-8"></div>
             </div>
         </div>
     </div>
 
     <!--Contact Us-->
-    <div class="jumbotron" id="contact">
-        <h2 class="text-center">CONTACT US</h2>
-        <form action="">
-            
+    <div class="jumbotron" id="contacts">
+        <h2 class="contact text-center">CONTACT US</h2>
+        <form>
+            <div class="form-row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Name..">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <input type="email" class="form-control" placeholder="Email..">
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Your Message Here.."></textarea>
+            </div>
 
         </form>
-       
     </div>
-    
+
+    <!--Social Media Section-->
+    <div class="social-media">
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+        <p class="footer footer-1">DELANI STUDIO</p>
+        <p class="footer footer-2">2020</p>
+    </div>
+
+
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
